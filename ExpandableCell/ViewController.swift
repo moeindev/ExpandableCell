@@ -63,16 +63,17 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             if sections[indexPath.section].isExpanded == true{
                 self.sections[indexPath.section].isExpanded = false
                 let sections = IndexSet.init(integer: indexPath.section)
-                tableView.reloadSections(sections, with: .none)
+                expandTV.reloadSections(sections, with: .none)
             }else{
                 self.sections[indexPath.section].isExpanded = true
                 let sections = IndexSet.init(integer: indexPath.section)
-                tableView.reloadSections(sections, with: .none)
+                expandTV.reloadSections(sections, with: .none)
             }
         }
     }
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var expandTV: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

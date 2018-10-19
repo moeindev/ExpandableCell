@@ -58,8 +58,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="LjM-ra-o0a"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="t27-Tt-m2s"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="e54-Qk-XfB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="r80-hL-89p"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -75,7 +75,7 @@
                     <navigationItem key="navigationItem" title="Expandable cell" id="qfi-d3-3es"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="tableView" destination="m6s-Lc-RHv" id="Ws1-3v-wRn"/>
+                        <outlet property="expandTV" destination="m6s-Lc-RHv" id="xQ5-tg-Ycf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
